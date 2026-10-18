@@ -19,7 +19,6 @@
       <span class="brand-mark" aria-hidden="true"><span></span><span></span></span>
       <span>drop<span class="brand-accent">link</span></span>
     </a>
-    <a class="top-cta" href="#kirim">Bagikan link <span aria-hidden="true">↗</span></a>
   </header>
 
   <main id="top">
@@ -53,28 +52,10 @@
       <div id="empty-state" class="empty-state" hidden>
         <div class="empty-illustration"><span>↗</span></div>
         <h3>Belum ada link di sini</h3><p>Jadi yang pertama berbagi rekomendasi.</p>
-        <a href="#kirim" class="empty-link">Kirim link pertama <span>↗</span></a>
       </div>
       <div id="no-results" class="no-results" hidden>Tidak ada link yang cocok. Coba kata kunci lain.</div>
     </section>
 
-    <section class="submit-section" id="kirim">
-      <div class="submit-panel">
-        <div class="submit-copy"><div class="section-kicker">PUNYA REKOMENDASI?</div><h2>Drop link-mu.<br /><span>Bantu yang lain.</span></h2><p>Produk pilihanmu bisa jadi favorit orang berikutnya. Tambahkan judul dan link-nya di bawah.</p>
-          <div class="submit-note"><span class="note-icon">✳</span><span>Link terbaru langsung tampil di urutan pertama.</span></div>
-        </div>
-        <form id="submit-form" class="submit-form">
-          <label for="title">Nama produk atau rekomendasi</label>
-          <input id="title" name="title" type="text" maxlength="100" placeholder="Contoh: Tumbler yang tahan dingin seharian" required />
-          <div class="form-row"><div class="field-grow"><label for="url">Link affiliate</label><input id="url" name="url" type="url" placeholder="https://…" required /></div>
-            <div class="field-category"><label for="category">Kategori</label><select id="category" name="category"><option>Semua</option><option>Fashion</option><option>Elektronik</option><option>Kecantikan</option><option>Rumah</option><option>Makanan</option><option>Lainnya</option></select></div></div>
-          <label for="note">Catatan <span class="optional">(opsional)</span></label>
-          <textarea id="note" name="note" rows="2" maxlength="180" placeholder="Apa yang bikin produk ini layak dicoba?"></textarea>
-          <button id="submit-button" class="submit-button" type="submit"><span>Kirim rekomendasi</span><span class="button-arrow">↗</span></button>
-          <p class="form-footnote">Dengan mengirim, kamu menyatakan link ini aman dan relevan untuk dibagikan.</p>
-        </form>
-      </div>
-    </section>
   </main>
   <footer><a class="brand footer-brand" href="#top"><span class="brand-mark" aria-hidden="true"><span></span><span></span></span><span>drop<span class="brand-accent">link</span></span></a><p>Rekomendasi bagus, dibagikan bersama.</p><span class="footer-year">© <span id="year"></span> droplink</span></footer>
 </body>

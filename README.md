@@ -1,10 +1,10 @@
 # DropLink
 
-Situs rekomendasi link affiliate berbahasa Indonesia. Link terbaru otomatis ditampilkan paling atas.
+Situs katalog rekomendasi link affiliate berbahasa Indonesia. Link terbaru otomatis ditampilkan paling atas.
 
 ## Jalankan lokal
 
-Buka `index.html` di browser. Sebelum Supabase dikonfigurasi, situs berjalan dalam mode pratinjau dan hanya menyimpan kiriman di browser yang sama.
+Buka `index.html` di browser. Sebelum Supabase dikonfigurasi, katalog berjalan dalam mode pratinjau. Isi data katalog melalui Supabase setelah backend dikonfigurasi.
 
 ## Aktifkan penyimpanan bersama
 
@@ -17,4 +17,4 @@ Buka `index.html` di browser. Sebelum Supabase dikonfigurasi, situs berjalan dal
 
 Folder ini adalah situs statis. Unggah folder `affiliate-drop` ke Netlify, Cloudflare Pages, Vercel, atau GitHub Pages. Untuk Netlify/Vercel, pilih folder ini sebagai project root; tidak perlu build command. Pastikan `config.js` sudah diisi sebelum deploy agar semua pengunjung melihat daftar yang sama.
 
-Kebijakan database saat ini mengizinkan publik membaca dan mengirim link. Jika situs mulai menerima banyak kiriman, tambahkan moderasi atau pembatasan spam sebelum membagikan secara luas.
+Kebijakan database saat ini mengizinkan publik membaca dan mengirim link melalui API. Antarmuka situs hanya menampilkan katalog rekomendasi.
